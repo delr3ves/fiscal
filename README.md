@@ -4,3 +4,6 @@ Just the project to perform the exercices for (Functional Scala Red Book)[https:
 
 
 - [x] Added chapter2's exercises
+- [ ] Added chapter3's exercises
+    - [x] List's exercises
+    - [ ] Tree's exercises
