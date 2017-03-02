@@ -7,3 +7,6 @@ Just the project to perform the exercices for (Functional Scala Red Book)[https:
 - [x] Added chapter3's exercises
     - [x] List's exercises
     - [x] Tree's exercises
+- [ ] Added chapter4's exercises
+    - [x] Option's exercises
+    - [ ] Either's exercises
