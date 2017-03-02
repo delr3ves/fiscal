@@ -8,7 +8,6 @@ import scala.util.Random
 
 class OptionTest extends FlatSpec with GeneratorDrivenPropertyChecks with Matchers {
 
-
   implicit val genIntArray = Gen.listOf(Gen.chooseNum(Int.MinValue, Int.MaxValue))
 
   implicit val genString = Gen.alphaNumStr
@@ -26,13 +25,13 @@ class OptionTest extends FlatSpec with GeneratorDrivenPropertyChecks with Matche
     }
   }
 
-  "orElse" should "return the stored value when Some" in {
+  "orElse" should "return the original Option when Some" in {
     forAll { (value: String) =>
       Some(value).orElse(Some("anotherValue")) shouldBe Some(value)
     }
   }
 
-  it should "return the alternative value when None" in {
+  it should "return the alternative when None" in {
     forAll { (value: String) =>
       None.orElse(Some(value)) shouldBe Some(value)
     }
