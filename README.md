@@ -9,3 +9,4 @@ Just the project to perform the exercices for [Functional Scala Red Book](https:
 - [x] Added chapter4's exercises
     - [x] Option's exercises
     - [x] Either's exercises
+- [x] Added chapter5's exercises
